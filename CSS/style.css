@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Metal+Mania&family=Playfair+Display&display=swap');
+body {
+    background-image: url(https://i.postimg.cc/Bb6ywHhM/pexels-photo-1660924.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Metal Mania;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: right;
+    font-weight: bold;
+    font-family: Metal Mania;
+}
+.navbar {
+     width: 100vh;
+}
+
+.custom-paragraph {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    height: 200px;
+    width: 200px;
+  }
+  .h2 {
+    color: white;
+    font-size: 80px;
+  }
+  a:hover{
+    background-color: aqua;
+
+  }
+  #home {
+    height: 100vh;
+  }
+  .h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+  }
