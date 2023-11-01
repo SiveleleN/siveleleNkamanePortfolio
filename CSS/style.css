@@ -140,6 +140,27 @@ h1 {
   .btn-primary:hover {
     background-color: #0056b3;
   }
-  
+  .testimonial {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+  }
+
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .testimonial p strong {
+    font-weight: bold;
+  }
 
       
