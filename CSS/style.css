@@ -42,3 +42,8 @@ h1 {
     color: white;
     font-size: 80px;
   }
+  
+   h2, p {
+      text-align: center;
+      color: white;
+   }
