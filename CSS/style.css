@@ -54,3 +54,46 @@ h1 {
         color: beige;
         font-size: 100px;
      }
+
+     #education {
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+      
+      .grid-item {
+        text-align: center;
+      }
+      
+      .grid-item img {
+        width: 100px;
+        height: 100px;
+      }
+      
+      .grid-item p {
+        margin: 0;
+      }
+
+
+
+#skills h1 {
+    color: #fff;
+    font-size: 80px; 
+}
+
+#skills img {
+    max-width: 100%; 
+}
+
+#skills h4 {
+    color: #fff; 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+
+      
