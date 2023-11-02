@@ -16,15 +16,25 @@ h1 {
     font-family: Metal Mania;
 }
 .navbar {
+    background-color: #ffffff00;
      width: 100vh;
-}
+     position: -webkit-sticky; /* Safari support */
+     position: fixed;
+     top: 0; /* The element becomes sticky at the top of the viewport */
+     padding: 10px;
+     
+    }
+
+    #nav-bg{
+        background-color: rgba(0, 0, 0, 0.732);
+    }
 
 .custom-paragraph {
     font-size: 22px;
     color: red;
     font-weight: bold;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     height: 200px;
     width: 200px;
   }
@@ -201,6 +211,11 @@ h1 {
     background-color: black;
   }
 
+  .testimonial:hover{
+    transition: 0.8s ease-in-out;
+    transform: rotateX(360deg);
+  }
+
   .testimonial img {
     width: 100px;
     height: 100px;
@@ -277,3 +292,22 @@ h1 {
         width: 100%;
     }
 }  
+
+img[alt='profile']{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 250px;
+    height: auto;
+}
+.testimonial:hover{
+    animation: name 1s;
+
+}
+
+@keyframes testimonial {
+    
+}
+#number {
+    color: red;
+}
